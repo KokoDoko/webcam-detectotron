@@ -1,0 +1,16 @@
+{
+  "name": "knear-webcam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist/*",
+    "start": "parcel src/index.html",
+    "watch": "parcel watch src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

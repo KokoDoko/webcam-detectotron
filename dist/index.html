@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webcam capture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="2669cb7c2c38d71003fa3b1882447709.css">
+<script src="2669cb7c2c38d71003fa3b1882447709.js"></script></head>
+
+<body>
+      <div>
+        <video autoplay=""></video>
+        <canvas id="mosaic"></canvas>
+        <img id="learned" src="d800b994853a370358392488cf9991e6.png">
+      </div>
+
+      <div>
+        <h4>Recording</h4>
+        <p>Click the button to associate the current image with the class. Adding more images per class will make image recognition more precise.</p>
+      </div>
+
+      <container>        
+          <div class="flex-item">
+            <h5>Class: Close up</h5>
+            <img src="e0f147ae0740e9ee581f746610393b18.png"><br>
+            <button class="record">Associate with webcam</button>
+            <h5>data</h5>
+            <data class="data"></data>
+          </div>
+          <div class="flex-item">
+            <h5>Class: Left</h5>
+            <img src="944602bcc8f15f1faaad3db9eb0277d2.png"><br>
+            <button class="record">Associate with webcam</button>
+            <h5>data</h5>
+            <data class="data"></data>
+          </div>
+          <div class="flex-item">
+            <h5>Class: Right</h5>
+            <img src="c2367dbc18aacb29f27206b34884b419.png"><br>
+            <button class="record">Associate with webcam</button>
+            <h5>data</h5>
+            <data class="data"></data>
+          </div>
+      </container>
+
+      <div>
+        <button id="train">START</button>
+        <p>Press start and move before the webcam, to see which image gets associated with the current webcam output</p>
+        <!--<button id="clear">Clear data</button>-->
+      </div>
+
+  <script src="ccb2f1e405b896a9b5181e2e98f65722.js"></script>
+</body>
+
+</html>
