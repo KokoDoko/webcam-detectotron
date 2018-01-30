@@ -1,6 +1,6 @@
 # Webcam Detectotron
 
-Using a machine learning alogrithm to recognise webcam images, written entirely in Javascript.
+Using a machine learning algorithm to recognise webcam images, written entirely in Javascript.
 Click the 'associate' button to associate specific webcam output with each of the three 'Adventure Time' images.
 
 *For example, take a few shots where you sit really close to the webcam, and associate this with the close-up of Finn. Do this a couple of times with different variations of sitting close to the camera.*
