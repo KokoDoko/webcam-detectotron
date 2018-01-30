@@ -22,13 +22,15 @@ Supervised learning means that we first associate data with a label. This is cal
 
 #### Classifying
 
-Once you have enough training data, you can provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. This is called classifying.
+Once you have enough training data, you can provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. This is called classifying. Classifying always results in ONE label: the one that comes closest to the data you provided.
 
 ![image](/src/images/knear.png)
 
 ## You can use any data
 
 The mind-boggling thing is that this algorithm works just as well with more than two dimensions. In this repository we use webcam data that has 100 dimensions (10 x 10 rows of colors). As long as you provide arrays of numbers, the source can be anything - an excel sheet, a sound file, location data, etc. You could also use a 1000 dimensions for much more detailed analysis, but at some point your CPU might melt...
+
+You can  associate more than one array (a tensor) with a class. We do this in the webcam example - we provided different close-up webcam images that all need to be associated with the close-up image of Finn. This way, the machine can learn what a close-up webcam image looks like, approximately. 
 
 #### Javascript
 
