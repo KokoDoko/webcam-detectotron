@@ -70,6 +70,6 @@ npm run build
 
 ## Sources
 
-The app is inspired by [Machine Learning for Artist](https://github.com/ml4a) and uses the *K-Nearest-Neighbour* algorithm provided by [kNearJS](https://github.com/NathanEpstein/KNear)
-
-[K-nearest-neighbour on Wikipedia](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+- Inspired by [Machine Learning for Artists](https://github.com/ml4a) 
+- Uses the *K-Nearest-Neighbour* javascript library [kNearJS](https://github.com/NathanEpstein/KNear)
+- [K-nearest-neighbour on Wikipedia](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
