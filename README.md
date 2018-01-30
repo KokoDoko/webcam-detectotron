@@ -39,7 +39,27 @@ machine.learn([2,3,7,12], "mylabel")
 let label = this.machine.classify([6,2,9,4])   
 ```
 
-## Building the project
+## Getting started with your own variation
+
+To quickly build your own demo, replace all code in `grid.js` with this example code. You don't need util.js, this is only used for color conversion.
+
+```
+import KNear from './knear'
+
+export default class App {
+    constructor() {
+        this.machine = new KNear(3)
+        this.machine.learn([2,3,7,12], "labelOne")
+        this.machine.learn([5,9,12,16], "labelTwo")
+        let label = this.machine.classify([6,2,9,4])
+        console.log("the label for 6,2,9,4 is " + label)
+    }
+}
+
+new App()
+```
+
+## Building
 
 To build the project you can install [Parcel](https://parceljs.org) and then run the build command. It should also work with Webpack but then you need one of those pesky config files, and who wants that?
 
