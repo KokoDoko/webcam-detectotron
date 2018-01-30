@@ -1,11 +1,12 @@
 # Webcam Detectotron
 
-Using a machine learning algorithm to recognise webcam images, written entirely in Javascript.
-Click the 'associate' button to associate specific webcam output with each of the three 'Adventure Time' images.
+This is a demo for using a machine learning algorithm to recognise webcam output, written entirely in Javascript. 
+
+To teach the machine to recognise webcam output, you can click the 'associate' button to associate the current webcam output with one of the three 'Adventure Time' images.
 
 *For example, take a few shots where you sit really close to the webcam, and associate this with the close-up of Finn. Do this a couple of times with different variations of sitting close to the camera.*
 
-When all three images have associated webcam output, you can click start. The machine will start analysing the webcam and decide for itself which of the three images it should show.
+When all three images have been associated with webcam output, you can click **start**. The machine will start analysing the webcam and decide for itself which of the three images it should show.
 
 [Try it out here!](https://kokodoko.github.io/webcam-detectotron/)
 
