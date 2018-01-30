@@ -14,9 +14,15 @@ When all three images have associated webcam output, you can click start. The ma
 
 ## K-Nearest-Neighbour
 
-This algorithm works by first associating data with a label. This is called 'Supervised learning'. You can assocociate variations of data with the same label, to make the machine more precise. The next step is to provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. This is called 'classifying'. 
+#### Supervised learning
 
-This screenshot shows how K-Nearest-Neighbour works with tensors of two dimensions. The large dots are predefined points with an X,Y value. The small dots are colored according to their nearest neighbours. The machine uses X,Y coordinates to decide which large dots are the nearest.
+This algorithm works by first associating data with a label. In the screenshot the large dots represent our training data, they have the label red or green.
+
+#### Classifying
+
+Once you have enough training data, you can provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. 
+
+The small dots in the screenshot are colored according to their three nearest neighbours (this is what the 'K' stands for, in this case 3). The machine uses X,Y coordinates to decide which large dots are the nearest.
 
 ![image](/src/images/knear.png)
 
