@@ -12,14 +12,13 @@ When all three images have associated webcam output, you can click start. The ma
 ![image](/src/images/webknear.png)
 
 
-
 ## K-Nearest-Neighbour
 
 This algorithm works by first associating data with a label. This is called 'Supervised learning'. You can assocociate variations of data with the same label, to make the machine more precise. The next step is to provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. This is called 'classifying'. 
 
 This screenshot shows how K-Nearest-Neighbour works with tensors of two dimensions. The large dots are predefined points with an X,Y value. The small dots are colored according to their nearest neighbours. The machine uses X,Y coordinates to decide which large dots are the nearest.
 
-
+![image](/src/images/knear.png)
 
 ## You can use any data
 
@@ -30,9 +29,14 @@ The mind-boggling thing is that this algorithm works just as well with more than
 The javascript kNear library provides you with these functions to apply the algorithm:
 
 ```
-let machine = new KNear(3)                     // a machine that looks at the three nearest neighbours for a point
-machine.learn([2,3,7,12], "mylabel")           // associate this data set with the label "mylabel"
-let label = this.machine.classify([6,2,9,4])   // ask the machine which label comes closest to this dataset
+// a machine that looks at the three nearest neighbours for a point
+let machine = new KNear(3)
+
+// associate this data set with the label "mylabel"
+machine.learn([2,3,7,12], "mylabel")
+
+// ask the machine which label comes closest to this dataset
+let label = this.machine.classify([6,2,9,4])   
 ```
 
 ## Building the project
