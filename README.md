@@ -71,3 +71,5 @@ npm run build
 ## Sources
 
 The app is inspired by [Machine Learning for Artist](https://github.com/ml4a) and uses the *K-Nearest-Neighbour* algorithm provided by [kNearJS](https://github.com/NathanEpstein/KNear)
+
+[K-nearest-neighbour on Wikipedia](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
