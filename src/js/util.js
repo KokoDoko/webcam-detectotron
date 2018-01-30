@@ -1,5 +1,7 @@
 'use strict';
 
+// these functions use bit shifting to generate one decimal number for a R G B value
+
 export default class Util {
     static rgbToDecimal(red, green, blue) {
         var r = red & 0xFF;

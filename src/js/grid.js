@@ -107,10 +107,11 @@ export default class App {
             let x = col * (this.width / this.numpixels) 
             let y = row * (this.height / this.numpixels)
 
-            // sample locatie niet linksboven rect maar in het midden
+            // colorsample location in the middle of the rectangle
             let p = this.context.getImageData(x + this.width / 20, y + this.height / 20, 1, 1).data  
 
-            // rgb waarde bij voorkeur als 1 decimal doorgeven, anders krijgt kNear drie losse waarden binnen of hexwaarde
+            // Here we convert three R G B values to one decimal using bit shifting. 
+            // We need one decimal so that kNear can more easily compare different values
             // console.log("rgb is " + p[0] + "," + p[1] + "," + p[2]);
             let decimalColor = Util.rgbToDecimal(p[0],p[1],p[2])
             this.webcamData.push(decimalColor)
