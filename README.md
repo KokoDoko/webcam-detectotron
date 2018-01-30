@@ -12,18 +12,17 @@ When all three images have been associated with webcam output, you can click **s
 
 ![image](/src/images/webknear.png)
 
-
 ## K-Nearest-Neighbour
+
+This algorithm is based on finding the nearest predefined points, given a new point. In the screenshot below, the color of the small dots is determined by the color of the **three** nearest large dots (The 'K' stands for the amount of points you want to compare).
 
 #### Supervised learning
 
-This algorithm works by first associating data with a label. In the screenshot the large dots represent our training data, they have the label red or green.
+Supervised learning means that we first associate data with a label. This is called training data. In the screenshot our training data consists of the large dots. They have an X,Y coordinate and a label (red or green).
 
 #### Classifying
 
-Once you have enough training data, you can provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. 
-
-The small dots in the screenshot are colored according to their three nearest neighbours (this is what the 'K' stands for, in this case 3). The machine uses X,Y coordinates to decide which large dots are the nearest.
+Once you have enough training data, you can provide a fresh data set to the machine, and then ask which existing label comes closest to that new set of data. This is called classifying.
 
 ![image](/src/images/knear.png)
 
