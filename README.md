@@ -7,7 +7,7 @@ Click the 'associate' button to associate specific webcam output with each of th
 
 When all three images have associated webcam output, you can click start. The machine will start analysing the webcam and decide for itself which of the three images it should show.
 
-![image]("/src/images/webknear.png")
+![image](/src/images/webknear.png)
 
 [Try it out here!](https://kokodoko.github.io/webcam-detectotron/)
 
